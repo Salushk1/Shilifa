@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაცია</title>
+    <link rel="icon" href="images/logoo.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/registration.css">
+    
+</head>
+<body>
+    
+    <div class="main" id="regis">
+        <div class="registration">
+            <div class="full-container">
+                <h2 class="registration-header">რეგისტრაცია</h2>
+
+                <form action="" id="registration" method="post">
+                    <div class="namee">
+                <label for="name"><b>სახელი</b></label>
+                <input type="text" name="fname" id="name" placeholder="შეიყვანეთ თქვენი სახელი"> 
+                    </div>
+
+                    <div class="surnamee">
+                <label for="surname"><b>გვარი</b></label>
+                <input type="text" name="lname" id="surname" placeholder="შეიყვანეთ თქვენი გვარი">
+                    </div> 
+
+                    <div class="agee">
+                <label for="age"><b>ასაკი</b></label>
+                <input type="number" name="age" id="age" placeholder="შეიყვანეთ თქვენი სახელი"> 
+                    </div>
+                    
+                    <div class="genderr"> 
+                <label for="gender"><b>სქესი :</b></label>
+                    
+
+                <input type="radio" name="gender" id="female">
+                <span id="female">ქალი</span> 
+                <input type="radio" name="gender" id="male">
+                <span id="male">კაცი</span> 
+                <input type="radio" name="gender" id="other">
+                <span id="other">სხვა</span> 
+            </div>
+                
+                    <div class="mobilee">
+                <label><b>მობილური :</b></label>  
+                <input type="text" class="country-code" name="country code" placeholder="Country Code"  value="+995" size="3"/>   
+                <input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+                    </div>
+
+                    <div class="maill">
+                <label for="email"><b>მეილი</b></label>  
+                <input type="text" placeholder="შეიყვანეთ მეილი" name="email" required>  
+                    </div>
+
+                    <div class="passwordd">
+                <label for="psw"><b>პაროლი</b></label>  
+                <input type="password" placeholder="შეიყვანეთ პაროლი" name="psw" required>  
+                    </div>
+
+                    <div class="passwordd">
+                <label for="psw-repeat"><b>გაიმეორეთ პაროლი</b></label>  
+                <input type="password" placeholder="გაიმეორეთ პაროლი" name="psw-repeat" required>  
+                    </div>
+                    
+                        <div class="agreee">
+                    <input type="checkbox" id="agree" name="agree" value="agree">
+                    <label for="agree">ამ მონიშვნით ვეთანხმები შილიფას <a href="#">წესებსა და პირობებს</a>.</label><br>
+                        </div>
+
+                        <div class="buttonn">
+                <button type="submit" class="registerbtn">რეგისტრაცია</button>    
+                        </div>
+
+                    <div class="container-signin">
+                        <p> უკვე დარეგისტრირებული ხარ? მაშინ დააჭირე  <a href="login.html">შესვლა</a></p>
+                      </div>
+
+                    </div>   
+            </form>
+
+        
+    
+
+        </div>
+    </div>
+</body>
+</html>
+

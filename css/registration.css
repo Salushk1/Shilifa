@@ -1,0 +1,135 @@
+a {
+    color: dodgerblue;
+  }
+.signin {
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  body{
+      background-image: url(../images/angela-bailey-jlo7Bf4tUoY-unsplash.jpg);
+      background-size: 280%;
+      background-size: cover;
+      box-sizing: border-box;
+      background-repeat: no-repeat;
+      font-family: Helvetica, sans-serif; 
+  }
+
+  .main{
+      width: 400px;
+      margin: 100px auto 0px auto;
+  }
+  h2{
+      text-align: center;
+      padding: 20px;
+      font-family: sans-serif;
+  }
+  .registration-header{
+      font-size: 30px;
+      font-weight: 50;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .registration{
+      background-color: rgba(0,0,0,0.5);
+      width: 100%;
+      font-size: 18px;
+      border-radius: 10px;
+      border: 1px soild rgba(255, 255, 255, 0.3);
+      box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+      color: white;
+
+  }
+  label{
+      font-family: sans-serif;
+      font-size: 18px;
+      font-style: italic;
+      margin-bottom: 10px;
+  }
+ .namee
+ {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    
+ }
+ /* .namee{
+     margin-bottom: 10px;
+ } */
+ .surnamee{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+ }
+ .agee{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px; 
+ }
+ .genderr{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+ }
+ .mobilee{
+    display: flex;
+    /* flex-direction: column; */
+    margin: 10px;
+    padding: 5px; 
+ }
+ .country-code{
+     margin-right: 20px;
+ }
+ .maill{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px; 
+ }
+ .passwordd{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px; 
+ }
+ .agreee{
+    display: flex;;
+    margin: 10px;
+    padding: 5px; 
+    text-align: center;
+    margin-left:10px;
+    line-height: 20px;
+ }
+ .buttonn
+ {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+ }
+ .container-signin{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,20 @@
+.container
+{
+    display: flex;
+
+}
+.left-part
+{
+width: 50%;
+height: auto;
+background-color: khaki;
+}
+.right-part
+{
+width: 50%;
+height: auto;
+background-color: lawngreen;
+}
+.right-image{
+    width: 100%;
+}
