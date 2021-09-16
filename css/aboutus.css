@@ -169,6 +169,102 @@ height: auto;
 }
 
 /* contact copyright and media */
+.contaiiner-footer
+{
+    width: 100%;
+    background-color: #262626;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+.footer-widget
+{
+    box-sizing: border-box;
+    display: block;
+    margin-left: 150px;
+}
+.row-footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 400px;
+    box-sizing: border-box;
+}
+.first-part-row
+{
+    max-width: 25%;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    margin-left: -130px;
+}
+.single-part-first{
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    display: block;
+}
+.second-part-row
+{
+    max-width: 25%;
+    margin-right: 200px;
+    
+}
+.woman-footer 
+{
+    font-size: 34px;
+    color: white;
+    margin-bottom: 50px;
+}
+.child-footer 
+{
+    font-size: 34px;
+    color: white;
+    margin-bottom: 50px;
+}
+.man-footer
+{
+    font-size: 34px;
+    color: white;
+    margin-bottom: 50px;
+}
+}
+.footer-widget .single-part-first .single-part-second .single-part-third
+{
+    color: white;
+    font-size: 26px;
+    margin-bottom: 44px;
+    margin: 0;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.single-part-first ul li
+{
+    margin: 10px;
+    color: #A63000;
+    font-size: 20px;
+}
+.single-part-first ul li a
+{
+    color:#A63000;
+}
+.single-part-second ul li
+{
+    margin: 10px;
+    font-size: 20px;
+}
+.single-part-second ul li a
+{
+    color:#A63000;
+}
+.single-part-third ul li 
+{
+    margin: 10px;
+    font-size: 20px;
+}
+.single-part-third ul li a
+{
+    color:#A63000;
+}
+
+/* contact copyright and media */
 .contact-footer
 {
     background-color: #262626;
@@ -202,7 +298,8 @@ height: auto;
 .container-social-links
 {
     width: auto;
-    margin-left: 165px;
+    margin-left: 300px;
+
 }
 .social-links a
 {
@@ -216,13 +313,12 @@ height: auto;
 .social-links a i
 {
     font-size: 30px;
-    color: #d7d7d7;
     float: left;
     margin-right: 19px;
     overflow: hidden;
     transition: all 0.3s;
 }
-.fa
+.fab
 {
     display: inline-block;
     font: normal;
@@ -234,9 +330,20 @@ height: auto;
 }
 .fa-instagram
 {
-    color:#833AB4;
+    color:#cd486b;
 }
-
+.fa-pinterest
+{
+    color: #E60023;
+}
+.fa-tiktok
+{
+    color:#000000
+}
+.fa-facebook
+{
+    color: #4267B2;
+}
 /* copyright */
 
 .container-copyright

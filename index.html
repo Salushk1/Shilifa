@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ecommerce Clothes Web Site">
+    <meta name="keywords" content="Clothes,Kids,Woman, Man, Kids">
+    <meta name="author" content="Salome Vakhtangishvili">
     <meta property="og:url"           content="salushk1.github.io/shilifa/" />
     <meta property="og:type"          content="Ecommerce Clothes Shop" />
-    <meta property="og:title"         content="When you want buy highes quality clothes with low prices." />
-    <meta property="og:description"   content="Can you shop easily without stress and very quickly?" />
-    <meta property="og:image"         content="" />
+    <meta property="og:title"         content="Shilifa" />
+    <meta property="og:description"   content="Highest quality clothes with low prices." />
+    <meta property="og:image"         content="images/logoo.png" />
     <script src="https://kit.fontawesome.com/e209109922.js" crossorigin="anonymous"></script>
     <title>Shilifa</title>
 	<link rel="stylesheet" href="css/reset.css">
     <link rel="icon" href="images/logoo.png">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/slick.css">
     <link href="https://kenwheeler.github.io/slick/slick/slick-theme.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="css/style.css">
@@ -26,7 +30,7 @@
                 <div class="logo">
                     <img src="images/logoo.png" alt="logo" class="logo-image">
                 </div>
-            <div class="menu-bar">
+            <div class="menu-bar" id="nav">
                 <ul>
                     <li class="active"><a href="index.html"><i class="fas fa-home"></i>მთავარი</a></li>
                     <li><a href="#womann"><i class="fas fa-female"></i>ქალი</a>
@@ -101,15 +105,22 @@
 
                     <li><a href="aboutus.html" class="about-us"><i class="fas fa-users"></i>ჩვენს შესახებ</a></li>
                     <li><a href="#social-links-conector" class="contact"><i class="fas fa-phone"></i>კონტაქტი</a></li>
-                    <li><a href="registration.html" class="log-in"><i class="fas fa-sign-in-alt"></i>შესვლა/რეგისტრაცია</a></li>
+                    <li><a href="registration.html" target="_blank" class="log-in"><i class="fas fa-sign-in-alt"></i>შესვლა/რეგისტრაცია</a></li>
                 </ul>
 
             </div>
+            <!-- burger -->
+
+            <div class="toggle-button" id="toggleButton">
+                <i class="fas fa-bars"></i>
+            </div>
+
+
              <!-- header name -->
             <div class="header">
 	            <h3 class="header-name">შილიფა</h3>
             </div>
-                <a href="" class="button-more">მეტი ინფორმაცია</a>
+                <a href="aboutus.html" class="button-more">მეტი ინფორმაცია</a>
                 <div>
                     <img src="images/logoo.png" alt="logo2" class="logo-two">
                 </div>
@@ -131,7 +142,7 @@
                         <h4 class="quality-text">100% მაღალი ხარისხი დაბალი ფასებით</h4>
                     </div>
                     <div class="third-box">
-                        <img src="images/online support.png" alt="support" class="img-support">
+                        <img src="images/online-support.png" alt="support" class="img-support">
                         <h4 class="support-text">24/7 ონლაინ დახმარება</h4>
                     </div>
                 </div>

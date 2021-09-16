@@ -12,3 +12,13 @@ $(function(){
        centerpadding:'0',
     })
 });
+
+// burger
+
+let navbarlinks = document.getElementById('nav');
+let toggleButtonBurger = document.getElementById ('toggleButton')
+
+toggleButtonBurger.addEventListener ('click', function () {
+    navbarlinks.classList.toggle('active');
+    
+});

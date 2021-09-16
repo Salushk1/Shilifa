@@ -1,0 +1,27 @@
+/* burger */
+
+@media (max-width:760px) {
+    .toggle-button
+    {
+        display: block;
+    }
+    .menu-bar
+    {
+        display: none;
+
+    }
+    .menu-bar,
+    .menu-bar ul{
+        flex-direction: column;
+        text-align: right;
+        margin: 15px;
+    }
+    /* .menu-bar ul li {
+        text-align: right;
+        margin-top: 20px;
+    } */
+    .menu-bar.active{
+        display: block;
+    }
+}
+
