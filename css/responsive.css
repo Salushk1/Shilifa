@@ -10,7 +10,7 @@
         display: none;
 
     }
-    .menu-bar,
+    .menu-bar
     .menu-bar ul{
         flex-direction: column;
         text-align: right;
@@ -25,3 +25,18 @@
     }
 }
 
+@media (max-width:550px) {
+    .first-box{
+        display:flex;
+        flex-direction: column;    }
+}
+@media (max-width:560px) {
+    .second-box{
+        display:flex;
+        flex-direction: column;    }
+}
+@media (max-width:560px) {
+    .third-box{
+        display:flex;
+        flex-direction: column;    }
+}
